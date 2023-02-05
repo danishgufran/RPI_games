@@ -49,7 +49,7 @@ Setup Python on Raspberry Pi and evaluate its performance with a simple Terminal
 - To switch between Python 2 and Python 3, use the following commands:
   ```python2``` or ```python3```
 
-# Creating a Directory and Downloading Code using wget
+# Creating a Directory and Downloading Code from github
 
 ## Prerequisites
 - Raspberry Pi with operating system installed
@@ -57,18 +57,13 @@ Setup Python on Raspberry Pi and evaluate its performance with a simple Terminal
 
 ## Steps
 1. Open terminal on Raspberry Pi.
-2. Create a directory named "games":
-   ```mkdir games```
-3. Change into the "games" directory:
-   ```cd games```
-4. Download code from a specific URL using wget:
-   ```wget <URL>```
+2. Install Git: 
+  ```sudo apt-get install git```
+3. Clojne source code:
+   ```git clone ```
+4. Enter the directory:
+   ```cd RPI_games```
 5. Run the Python game using:
-   ```python3 snakes.py```
-
-## Additional notes
-- Make sure that the URL provided is accessible from the Raspberry Pi.
-- You can also use `curl` instead of `wget` to download files from the command line:
-  ```curl <URL> -o <filename>```
+   ```python3 snake.py```
 
 
