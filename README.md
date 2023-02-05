@@ -63,6 +63,8 @@ Setup Python on Raspberry Pi and evaluate its performance with a simple Terminal
    ```cd games```
 4. Download code from a specific URL using wget:
    ```wget <URL>```
+5. Run the Python game using:
+   ```python3 snakes.py```
 
 ## Additional notes
 - Make sure that the URL provided is accessible from the Raspberry Pi.
