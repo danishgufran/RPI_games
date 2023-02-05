@@ -60,7 +60,7 @@ Setup Python on Raspberry Pi and evaluate its performance with a simple Terminal
 2. Install Git: 
   ```sudo apt-get install git```
 3. Clojne source code:
-   ```git clone ```
+   ```git clone https://github.com/danishgufran/RPI_games.git```
 4. Enter the directory:
    ```cd RPI_games```
 5. Run the Python game using:
